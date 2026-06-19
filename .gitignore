@@ -1,0 +1,59 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter checkpoints and experiment outputs
+.ipynb_checkpoints/
+mlruns/
+models_history/
+workspace/
+
+# Environment variables, credentials, and local secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*secret*
+*credential*
+*password*
+*token*
+
+# Local datasets, databases, model artifacts, and archives
+*.csv
+*.tsv
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.joblib
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Local project artifacts and empty duplicate placeholders
+PROJECT3.rmp
+combinedModel.py
+Q-learning(2).py
+RAI_error_analysis.py
+RL Traffic Signal Control Model - Copy.py
